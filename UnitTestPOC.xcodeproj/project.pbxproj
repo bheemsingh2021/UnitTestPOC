@@ -16,6 +16,8 @@
 		9B16C4C4281BB0F2003807A4 /* UnitTestPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16C4C3281BB0F2003807A4 /* UnitTestPOCTests.swift */; };
 		9B16C4CE281BB0F2003807A4 /* UnitTestPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16C4CD281BB0F2003807A4 /* UnitTestPOCUITests.swift */; };
 		9B16C4D0281BB0F2003807A4 /* UnitTestPOCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16C4CF281BB0F2003807A4 /* UnitTestPOCUITestsLaunchTests.swift */; };
+		9B16C4DE281BB147003807A4 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16C4DC281BB147003807A4 /* Hello.swift */; };
+		9B16C4E1281BB5E2003807A4 /* HelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16C4E0281BB5E2003807A4 /* HelloTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9B16C4C9281BB0F2003807A4 /* UnitTestPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B16C4CD281BB0F2003807A4 /* UnitTestPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPOCUITests.swift; sourceTree = "<group>"; };
 		9B16C4CF281BB0F2003807A4 /* UnitTestPOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B16C4DC281BB147003807A4 /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		9B16C4E0281BB5E2003807A4 /* HelloTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		9B16C4AB281BB0F1003807A4 /* UnitTestPOC */ = {
 			isa = PBXGroup;
 			children = (
+				9B16C4DC281BB147003807A4 /* Hello.swift */,
 				9B16C4AC281BB0F1003807A4 /* AppDelegate.swift */,
 				9B16C4AE281BB0F1003807A4 /* SceneDelegate.swift */,
 				9B16C4B0281BB0F1003807A4 /* ViewController.swift */,
@@ -113,6 +118,7 @@
 		9B16C4C2281BB0F2003807A4 /* UnitTestPOCTests */ = {
 			isa = PBXGroup;
 			children = (
+				9B16C4E0281BB5E2003807A4 /* HelloTests.swift */,
 				9B16C4C3281BB0F2003807A4 /* UnitTestPOCTests.swift */,
 			);
 			path = UnitTestPOCTests;
@@ -260,6 +266,7 @@
 			files = (
 				9B16C4B1281BB0F1003807A4 /* ViewController.swift in Sources */,
 				9B16C4AD281BB0F1003807A4 /* AppDelegate.swift in Sources */,
+				9B16C4DE281BB147003807A4 /* Hello.swift in Sources */,
 				9B16C4AF281BB0F1003807A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B16C4E1281BB5E2003807A4 /* HelloTests.swift in Sources */,
 				9B16C4C4281BB0F2003807A4 /* UnitTestPOCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
